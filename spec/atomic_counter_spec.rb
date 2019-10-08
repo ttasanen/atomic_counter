@@ -46,4 +46,27 @@ RSpec.describe AtomicCounter do
 
     expect(counter.current).to eq(0)
   end
+
+  it "resets the counter" do
+    counter = AtomicCounter::Counter.new(0)
+    counter.reset
+
+    expect(counter.current).to eq(0)
+  end
+
+  it "reset returns the current counter" do
+    counter = AtomicCounter::Counter.new
+    counter.increment(1)
+
+    expect(counter.reset).to eq(1)
+  end
+
+  it "reset returns the current counter to initial value" do
+    counter = AtomicCounter::Counter.new(5)
+    counter.increment(1)
+    counter.reset
+
+    expect(counter.current).to eq(5)
+  end
+
 end
