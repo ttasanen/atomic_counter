@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/ttasanen/atomic_counter"
-    spec.metadata["changelog_uri"] = "https://github.com/ttasanen/"
+    spec.metadata["changelog_uri"] = "https://github.com/ttasanen/blob/master/Changes.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
