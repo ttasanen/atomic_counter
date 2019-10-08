@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
   spec.email = ["tero.tasanen@gmail.com"]
   spec.summary = "Atomic Counter for Ruby"
   spec.description = "Thread safe Counter for Ruby"
-  spec.homepage = "https://github.com/ttasanen/"
+  spec.homepage = "https://github.com/ttasanen/atomic_counter"
   spec.license = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/ttasanen/"
+    spec.metadata["source_code_uri"] = "https://github.com/ttasanen/atomic_counter"
     spec.metadata["changelog_uri"] = "https://github.com/ttasanen/"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
