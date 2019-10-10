@@ -5,6 +5,10 @@ jobs:
       - image: circleci/ruby:2.5
     working_directory: ~/repo
 
+    environment:
+      COVERAGE: true
+      CC_TEST_REPORTER_ID: 166bdd7eb4141a8d217becb77dc12146c254273ac24a65aa2752a3b195e33503
+
     steps:
       - checkout
 
