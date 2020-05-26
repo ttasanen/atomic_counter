@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/7209351f288599145f32/maintainability)](https://codeclimate.com/github/ttasanen/atomic_counter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/7209351f288599145f32/test_coverage)](https://codeclimate.com/github/ttasanen/atomic_counter/test_coverage)
+![Ruby](https://github.com/ttasanen/atomic_counter/workflows/Ruby/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/7209351f288599145f32/maintainability)](https://codeclimate.com/github/ttasanen/atomic_counter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/7209351f288599145f32/test_coverage)](https://codeclimate.com/github/ttasanen/atomic_counter/test_coverage)
 
 
 # AtomicCounter
