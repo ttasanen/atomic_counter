@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix: 
        os: [ubuntu, macos]
-       ruby: [2.5, 2.6, 2.7, head, debug, jruby, jruby-head, truffleruby, truffleruby-head]
+       ruby: [2.5, 2.6, 2.7, 3.0, head, debug, jruby, jruby-head, truffleruby, truffleruby-head]
     runs-on: ${{ matrix.os }}-latest
     continue-on-error: ${{ endsWith(matrix.ruby, 'head') || matrix.ruby == 'debug' }}
     steps:
