@@ -1,6 +1,10 @@
 module AtomicCounter
   class Counter
-    attr_reader :current
+    def current
+      @mutex.synchronize do
+        @current
+      end
+    end
 
     def initialize(start = 0)
       @current = start
